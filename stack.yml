@@ -6,4 +6,5 @@ functions:
   go-world:
     lang: go
     handler: ./go-world
-    image: go-world
+    image: go-world:0.1
+    
