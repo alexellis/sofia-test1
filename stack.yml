@@ -7,5 +7,3 @@ functions:
     lang: go
     handler: ./go-world
     image: go-world:0.1
-    
-
