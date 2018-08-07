@@ -2,10 +2,12 @@ provider:
   name: faas
   gateway: http://127.0.0.1:8080
 
-
 functions:
   go-world:
     lang: go
     handler: ./go-world
     image: go-world:0.1
-
+  python-world:
+    lang: python3
+    handler: ./python-world
+    image: alexellis2/python-world:latest
