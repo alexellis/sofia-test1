@@ -4,4 +4,4 @@ def handle(req):
         req (str): request body
     """
 
-    return "We like Python coding, but don't like snakes"
+    return "Python 2 or 3?"
