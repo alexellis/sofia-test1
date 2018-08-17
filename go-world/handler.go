@@ -4,3 +4,4 @@ package function
 func Handle(req []byte) string {
 	return "I'm a nano-service, in a serverless world ftw"
 }
+
