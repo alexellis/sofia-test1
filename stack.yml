@@ -6,7 +6,7 @@ functions:
   go-world:
     lang: go
     handler: ./go-world
-    image: go-world:0.1
+    image: go-world:0.2
   python-world:
     lang: python3
     handler: ./python-world
