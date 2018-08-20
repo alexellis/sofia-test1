@@ -4,4 +4,5 @@ def handle(req):
         req (str): request body
     """
 
+    
     return "Python 2 or 3?"
