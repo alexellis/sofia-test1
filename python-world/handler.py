@@ -5,4 +5,4 @@ def handle(req):
     """
 
     
-    return "Python 2 or 3?"
+    return "Python 2, 3 or 3.6?"
