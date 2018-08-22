@@ -12,4 +12,3 @@ functions:
     lang: python3
     handler: ./python-world
     image: alexellis2/python-world:0.1
-
