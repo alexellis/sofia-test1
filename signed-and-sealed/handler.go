@@ -8,7 +8,7 @@ import (
 
 // Handle a serverless request
 func Handle(req []byte) string {
-	res := hmac.Validate(req, os.Getenv("Http_X_GitHub_Event"), os.Getenv("hmac_secret"))
+	res := hmac.Validate(req, os.Getenv("Http_X_Github_Event"), os.Getenv("hmac_secret"))
 
 	if res != nil {
 		return res.Error()
