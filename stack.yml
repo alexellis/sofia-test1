@@ -3,10 +3,12 @@ provider:
   gateway: http://127.0.0.1:8080
 
 functions:
-  go-world:
+  signed-and-sealed:
     lang: go
-    handler: ./go-world
-    image: go-world:0.2
+    handler: ./signed-and-sealed
+    image: signed-and-sealed:0.1
+    environment:
+      hmac_secret: "richard_gee"
 
   python-world:
     lang: python3
