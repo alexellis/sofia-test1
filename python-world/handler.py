@@ -4,4 +4,4 @@ def handle(req):
         req (str): request body
     """
 
-    return "Python 2, 3 or 3.6 or 4.0?"
+    return "Python 2, 3 or 3.6 or 6.0?"
