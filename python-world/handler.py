@@ -4,4 +4,8 @@ def handle(req):
         req (str): request body
     """
 
-    return "Python for everyone"
+    val = ""
+    with open("/var/openfaas/secrets/secret") as f:
+        val = f.read()
+    
+    return "Secret: " + val
