@@ -16,5 +16,3 @@ functions:
     image: alexellis2/python-world:0.4
 #    secrets:
 #     - secret
-
-
