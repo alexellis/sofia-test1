@@ -8,4 +8,4 @@ def handle(req):
     with open("/var/openfaas/secrets/secret") as f:
         val = f.read()
     
-    return "Secret: " + val
+    return "Secret value: " + val
