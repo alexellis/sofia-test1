@@ -3,9 +3,9 @@ def handle(req):
     Args:
         req (str): request body
     """
-
-    val = ""
-    with open("/var/openfaas/secrets/secret") as f:
-        val = f.read()
-    
-    return "Secret value: " + val
+    return "Hi Alex"
+#    val = ""
+#    with open("/var/openfaas/secrets/secret") as f:
+#        val = f.read()
+#    
+#    return "Secret value: " + val
